@@ -1,0 +1,166 @@
+.App {
+  display: grid;
+    width: 1201px;
+    height: 700px;
+    margin: 80px;
+    background-color: aliceblue;
+    grid-template-columns: 400px 600px;
+    direction: rtl;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.previw{
+  text-align: center;
+}          
+.preview-section{
+display: grid;
+grid-template-columns: 100%;
+}
+#root{
+  display: grid;
+    height: 841px;
+    width: 1370px;
+    background-color: blueviolet;
+    /* padding: 199px; */
+    /* right: 61px; */
+    /* position: relative; */
+    grid-template-columns: 1370px;
+    grid-template-rows: 816px;
+    
+}
+.notes-section{
+  background-color: #595f68;
+  position: relative;
+  padding: -3px;
+  width: 97%;
+  /* width: 378px; */
+  
+ 
+
+}
+.notes-list{
+  width: 387px;
+    position: relative;
+    list-style: none;
+    left: 0px;
+    color: rgb(226, 207, 207);
+  
+}
+.note-item{
+  cursor: pointer;
+  padding: 22px 10px;
+  font-size: 15px;
+  color: rgb(240, 202, 202);
+  border-bottom: 0.5px solid #fff;
+
+}
+#root{
+ 
+}
+.note{
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+.EditNotes{
+  background-color: #28a745;
+    border: 0px;
+    width: 76px;
+    cursor: pointer;
+    border-radius: 9px;
+    height: 29px;
+    position: relative;
+    top: 50px;
+}
+.fafa{
+  
+}
+.note-operations{
+  position: relative;
+  top: 15px;
+  right: 643px;
+
+}
+.add-btn {
+  position: relative;
+    top: 293px;
+    /* left: 300px; */
+    right: 370px;
+    /* border: 199px; */
+    width: 33px;
+    height: 31px;
+    /* border-radius: 2px; */
+    border-radius: 50%;
+    background-color: #bb0606;
+    color: antiquewhite;
+    border: 0px;
+    cursor: pointer;
+ 
+}
+.note-note{
+  padding: 30px;
+}
+.form-input {
+  display: block;
+  width: 100%;
+  padding: .700rem .75rem;
+  font-size: 1rem;
+  font-family: cairo;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.button {
+  margin-top: 20px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 60px;
+  font-size: 20px;
+}
+.green {
+  background: #28a745;
+}
+.active{
+  background-color: blueviolet;
+}
